@@ -1,4 +1,5 @@
 #include "gtest\gtest.h"
+#define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING
 #include <SimpleClass.h>
 
 TEST(SimpleClassTests, ComparisonALessThanB) {
