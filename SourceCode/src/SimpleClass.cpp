@@ -1,7 +1,10 @@
 #include "SimpleClass.h"
 
-/*
-* Simple Function: Compares two integers and returns true/false
+/** @brief Simple Function which compares two integers and returns true/false
+*
+* @param a first integer for comparison
+* @param b second integer for comparison
+* @return result of comparison
 */
 bool SimpleClass::Comparison(const uint16_t a, const uint16_t b)
 {
